@@ -32,10 +32,10 @@
       })
 
 
-    // hidden rest
-     function hiddenSelect(i){
+    // hidden rest of them
+     function hiddenSelect(asli){
       for (let j = 0; j < img.length; j++) {
-          if (j !== i) {
+          if (j !== asli) {
           img[j].classList.add("hidden");   // بقیه رو مخفی کن
           }}
      }
